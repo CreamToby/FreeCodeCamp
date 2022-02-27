@@ -1,0 +1,78 @@
+/* Step 7 */
+/* Normalize your box model by creating a * selector and setting the box-sizing property to border-box */
+* {
+    box-sizing: border-box;
+}
+
+/* Step 9 */
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+/* Step 10 */
+.header {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Step 11 */
+/* Flexbox is a one-dimensional CSS layout approach that focuses on the flow of content. It offers the ability to control the way items are spaced and aligned within a container. */
+#gallery {
+    display: flex;
+    
+    /* Step 12 */
+    /* Flexbox can be thought of as having two axes, the main axis and the cross axis. The main axis is determined by the flex-direction property. If flex-direction is set to row or row-reverse, the main axis is horizontal. If flex-direction is set to column or column-reverse, the main axis is vertical. */
+    flex-direction: row;
+    
+    /* Step 13 */
+    /* The flex-wrap property determines how your items should behave when the flex container is too small. Setting this property to wrap will allow your items to wrap to the next row/column (depending on your main axis), where nowrap will prevent your items from wrapping. */
+    flex-wrap: wrap;
+    /* You should see your images take a four-column layout. This is because you set their width to 25% in an earlier step. */
+    
+    /* Step 14 */
+    /* The justify-content property determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them. */
+    justify-content: center;
+
+    /* Step 15 */
+    /* The align-items property positions the flex content along the cross axis. In this case, with your flex-direction set to row, your cross axis would be vertical. */
+    align-items: center;
+
+    /* Step 16 */
+    padding: 0 4px;
+}
+
+/* Step 8 */
+#gallery img {
+    width: 25%;
+    height: 300px;
+
+    /* Step 17 */
+    object-fit: cover;
+    /* This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit. */
+
+    /* Step 18 */
+    /* space between images */
+    margin-top: 8px;
+    padding: 0 4px;
+
+    /* Step 19 */
+    /* smooth out images */
+    border-radius: 10px;
+}
+
+/* Step 20 */
+@media (max-width: 800px) {
+    #gallery img{
+        width: 50%;
+    }
+}
+
+/* Step 21 */
+@media(max-width: 600px) {
+    #gallery img{
+        width: 100%;
+    }
+}
