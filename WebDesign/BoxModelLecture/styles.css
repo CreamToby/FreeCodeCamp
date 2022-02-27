@@ -1,0 +1,87 @@
+/* Step 8 */
+.canvas {
+    width: 500px;
+    /* Step 9 */
+    height: 600px;
+    /* Step 10 */
+    background-color: #4d0f00;
+    /* Step 21 */
+    /* padding: 1px */
+    /* Step 22 */
+    overflow: hidden;
+    /* Step 34 */
+    filter: blur(2px);
+  }
+
+.frame {
+    /* Step 12 */
+    border: solid 50px black;
+    /* Step 13 */
+    width: 500px;
+    /* Step 14 */
+    padding: 50px;
+    /* Step 15 */
+    margin: 20px auto;
+}
+
+/* Step 17 */
+.one {
+    width: 425px;
+    /* Step 18 */
+    height: 150px;
+    /* Step 19 */
+    background-color: #efb762;
+    /* Step 20 */
+    margin: 20px auto;
+    /* Step 37 */
+    /* box-shadow > make bigger and soft edges  */
+    box-shadow: 0 0 3px 3px #efb762;
+    /* Step 40 */
+    border-radius: 9px;
+    /* Step 43 */
+    /* Rotate each rectangle to give them more of an imperfect, hand-painted look. */
+    transform: rotate(-0.6deg);
+}
+
+/* Step 24 */
+.two {
+    width: 475px;
+    /* Step 25 */
+    height: 200px;
+    /* Step 26 */
+    background-color: #8f0401;
+    /* Step 27, 33 */
+    margin: 0 auto 20px auto;
+    /* Step 38 */
+    box-shadow: 0 0 3px 3px #8f0401;
+    /* Step 41 */
+    /* border-radius: (top-left bottom-right) (top-right bottom-left); */
+    border-radius: 8px 10px;
+    /* Step 44 */
+    transform: rotate(0.4deg);
+}
+
+/* Step 29 */
+.three {
+    width: 91%;
+    /* Step 30 */
+    height: 28%;
+    /* Step 31 */
+    background-color: #b20403;
+    /* Step 32 */
+    margin: auto;
+    /* Step 36 */
+    filter: blur(2px);
+    /* Step 39 */
+    box-shadow: 0 0 5px 5px #b20403;
+    /* Step 42 */
+    /* border-radius: (top-left) (top-right) (bottom-right) (bottom-left); */
+    border-radius: 30px 25px 60px 12px;
+    /* Step 45 */
+    transform: rotate(-0.2deg);
+}
+
+/* Step 35 */
+.one, .two {
+    filter: blur(1px);
+}
