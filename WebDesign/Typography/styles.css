@@ -1,0 +1,104 @@
+/* Step 11 */
+* {
+    box-sizing: border-box;
+}
+
+/* Step 6 */
+html {
+    font-size: 16px;
+}
+
+/* Step 5 */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Step 8 */
+.label {
+    border: 2px solid black;
+    /* Step 9 */
+    width: 270px;
+    /* Step 10 */
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+/* Step 12 */
+/* Step 25 update selector */
+header h1 {
+    /* font-weight: 800; */
+    /* Step 13 */
+    text-align: center;
+    /* Step 14 */
+    margin: -4px 0;
+
+    /* Step 18 */
+    /* The letter-spacing property can be used to adjust the space between each character of text in an element. */
+    letter-spacing: 0.15px;
+
+}
+
+/* Step 15 */
+p {
+    margin: 0;
+}
+
+/* Step 17 */
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+
+    /* Step 41 */
+    /* This will clear the float property, pushing the divider and any following content down below the float text. */
+    clear: right;
+}
+
+/* Step 20 */
+.bold {
+    font-weight: 800;
+}
+
+/* Step 23 */
+/* The float property is used to place an element on the left or right of its container, allowing other content (such as text) to wrap around it. */
+.right {
+    float: right;
+}
+
+/* Step 27 */
+.lg {
+    height: 10px;
+}
+
+.lg, .md {
+    background-color: black;
+
+    /* Step 28 */
+    border: 0;
+}
+
+/* Step 38 */
+.md {
+    height: 5px;
+}
+
+/* Step 31 */
+/* The rem unit stands for root em, and is relative to the font size of the html element. */
+.sm-text {
+    font-size: 0.85rem;
+}
+
+/* Step 33 */
+.calories-info h1 {
+    margin: -5px -2px;
+    
+    /* Step 35 */
+    overflow: hidden;
+}
+
+/* Step 34 */
+.calories-info span {
+    font-size: 1.2em;
+
+    /* Step 36 */
+    margin-top: -7px;
+}
