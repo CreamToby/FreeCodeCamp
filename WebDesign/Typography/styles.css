@@ -102,3 +102,14 @@ p {
     /* Step 36 */
     margin-top: -7px;
 }
+
+/* Step 45 */
+.indent {
+    margin-left: 1em;
+}
+
+/* Stpe 46 */
+/* Step 48 :not selector */
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
