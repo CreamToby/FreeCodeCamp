@@ -108,8 +108,22 @@ p {
     margin-left: 1em;
 }
 
+/* Step 58 */
+.dbl-indent {
+    margin-left: 2em;
+}
+
 /* Stpe 46 */
 /* Step 48 :not selector */
 .daily-value p:not(.no-divider) {
     border-bottom: 1px solid #888989;
+}
+
+/* Step 65 */
+/* Step 66 */
+.note{
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
 }
