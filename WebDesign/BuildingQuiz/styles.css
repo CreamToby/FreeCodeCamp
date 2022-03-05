@@ -52,6 +52,11 @@ h2 {
     border-bottom: 4px solid #dfdfe2;
 }
 
+/* Step 33 */
+p::before {
+    content: "Question #";
+}
+
 /* Step 25 */
 /* Common pattern to visually hide text for only screen readers to read. */
 .sr-only {
